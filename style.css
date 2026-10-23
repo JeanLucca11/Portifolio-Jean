@@ -316,3 +316,38 @@ footer {
   color: var(--texto-no-destaque);
   text-decoration: none;
 }
+.botao-menu {
+  display: none;
+  padding: 10px 16px;
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  background-color: var(--superficie);
+  color: var(--texto);
+  font: inherit;
+  cursor: pointer;
+}
+
+.botao-menu:focus-visible {
+  outline: 2px solid var(--destaque);
+  outline-offset: 5px;
+}
+
+@media (max-width: 600px) {
+  .botao-menu:not([hidden]) {
+    display: inline-block;
+  }
+
+  #menu-principal {
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #menu-principal.menu-recolhivel {
+    display: none;
+  }
+
+  #menu-principal.menu-recolhivel.aberto {
+    display: flex;
+  }
+}
