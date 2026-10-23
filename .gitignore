@@ -1,0 +1,9 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências e configurações locais de ambiente
+node_modules/
+.env
+.env.*
+!.env.example
