@@ -31,6 +31,10 @@ Durante o desenvolvimento, pratiquei:
 - Uso do localStorage.
 - Versionamento com Git e publicação com GitHub Pages.
 
+## Meu Objetivo
+
+- Através desse projeto de portifólio pessoal eu gostaria de aprimorar meus conhecimentos sobre o desenvolvimento Web e buscar oportunidades no mercado de trabalho dentro dessa área.
+
 ## Como executar localmente
 
 1. Clone este repositório:
