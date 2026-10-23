@@ -2,7 +2,7 @@ const botaoTema = document.querySelector("#alterar-tema");
 const pagina = document.documentElement;
 
 function aplicarTema (tema){
-const TemaClaroAtivo = tema === "Claro";
+const TemaClaroAtivo = tema === "claro";
 
 pagina.dataset.tema = tema;
 
